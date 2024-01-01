@@ -1,0 +1,101 @@
+:root
+{
+    --mycolor: #f9be09;
+}
+.logo
+{
+    height: 60%;
+    width: 30%;
+}
+.text-mycolor
+{
+    color: var(--mycolor);
+}
+.bg-mycolor
+{
+    background: var(--mycolor);
+}
+.col1
+{
+    min-height: 75px;
+    font-weight: bold;
+}
+.col
+{
+    display: flex;
+    align-items: center;
+}
+.btn1
+{
+    border-style: none;
+}
+.btn2
+{
+    border-style: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+}
+.banner
+{
+    margin-bottom: 100px;
+}
+.ic
+{
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid var(--mycolor);
+    padding: 10px;
+    border-radius: 100%;
+    background: var(--mycolor);
+    text-align: center;
+}
+.banner1
+{
+    background: url(BOOTSTRAP-33-IMG/1.jpg);
+    background-size: 100% 100%;
+    min-height: 500px;
+}
+.banner2
+{
+    background: rgba(0,0,0,.5);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot1
+{
+    list-style: none;
+}
+.foot2
+{
+    text-decoration : none;
+    color: white;
+}
+.dv1
+{
+    height: 1px;
+    width: 35px;
+    background: var(--mycolor);
+}
+.foot1>li
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+.ic2
+{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid var(--mycolor);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
